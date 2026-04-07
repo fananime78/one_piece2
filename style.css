@@ -1,0 +1,124 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000000;
+    justify-items: center;
+    font-family: jack_pirate;
+    font-size: 120%;
+}
+
+.souligne{
+    text-decoration: underline;
+}
+
+strong {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.titre {
+    color: rgb(15, 165, 211);
+    text-align: center;
+}
+
+#affiche {
+    float: right;
+    border-radius: 30px;
+    margin-right: 25px;
+    margin-top: 25px;
+    width: 300px;
+    filter: drop-shadow(8px 8px 10px rgb(0, 0, 0));
+}
+
+a {
+    color: red;
+    transition: 0.5s;
+}
+
+a:hover{
+    color:white;
+}
+
+.all {
+    width: 80%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+}
+
+.elements {
+    margin: 10px;
+    width: calc(100% - 350px);
+    background-color: rgba(255, 255, 255, 0.525);
+    border-radius: 20px;
+    filter: drop-shadow(8px 8px 10px rgb(0, 0, 0));
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+    footer{
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 5px;
+        height: 40px;
+        float: left;
+        width: 100%;
+        border:1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        margin-top: 20px;
+        font-family:'Times New Roman', Times, serif;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+.roman {
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+@font-face {
+    font-family: jack_pirate;
+    src: url(jack_pirate.ttf);
+}
+
+iframe{
+    display:block;
+    margin: auto;
+}
+
+.synopsis {
+    display: block;
+    margin-left: 50%;
+}
+
+#background-video {
+	height: 100vh;
+	width: 100%;
+	object-fit: cover;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	}
+
+h1{
+    text-shadow: 2px 2px 2px black;
+}
+
+
+
+
+/* Image centre: */
+/* display: block; */
+/* margin: auto; */
